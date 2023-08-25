@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>login page</title>
+  <meta charset = " UTF-8">
+
+  <style>
+    .btn{
+      text-decoration:none;
+      font-size:2rem;
+      color:white;
+      padding:10px 20px 10px 20px;
+      margin:20px;
+      display:inline-block;
+      border-radius:10px;
+      transition:all 0.1s;
+      text-shadow: 3px 2px rgba(0, 0, 0, 0.44);
+    }
+    .btn.login{
+      background-color:#33BBC5
+      
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>id와 passward를 입력해주세요</h1>
+
+  <form method="post" action="">
+
+  <br>
+  
+    <label for="user-id">아이디(4자이상)
+        <p>아이디 : <input type='text' name="id" id="user-id"></p>
+    </label>
+
+    <label for="userpass">비밀번호(특수문자포함 6자 이상)
+        <p>비밀번호 : <input type='passward' name="pwd" id="userpass"></p>
+    </label>
+  </br>
+
+  <button class="btn login" href="#blue" type="submit">Login</button>
+
+  </form>
+
+
+</body>
+
+</html>
